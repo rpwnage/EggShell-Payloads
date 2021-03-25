@@ -1,0 +1,9 @@
+Package: com.rpwnage.eggload
+Name: eggload
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome library of some sort!!
+Maintainer: Luca
+Author: Luca
+Section: System
+Tag: role::developer

@@ -1,0 +1,3 @@
+@interface EGGRootViewController : UITableViewController
+
+@end
