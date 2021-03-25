@@ -1,14 +1,14 @@
 #import "EGGRootViewController.h"
 
-@implementation EGGRootViewController {
-	NSMutableArray *_objects;
-}
+@interface EGGRootViewController ()
+@property (nonatomic, strong) NSMutableArray * objects;
+@end
+
+@implementation EGGRootViewController
 
 - (void)loadView {
 	[super loadView];
-
 	_objects = [NSMutableArray array];
-
 	self.title = @"Root View Controller";
 	self.navigationItem.leftBarButtonItem = self.editButtonItem;
 	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonTapped:)];

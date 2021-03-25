@@ -8,3 +8,6 @@ eggload_CFLAGS = -fobjc-arc
 eggload_CODESIGN_FLAGS = -Sentitlements.xml
 
 include $(THEOS_MAKE_PATH)/library.mk
+
+after-clean::
+	@rm -rf .theos
